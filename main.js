@@ -1,2 +1,3 @@
-var X = "this is my string assigment.";
-window.alert(X);
+window.alert("Hello, World!");
+var A = "This is a string.";
+document.write(A);
