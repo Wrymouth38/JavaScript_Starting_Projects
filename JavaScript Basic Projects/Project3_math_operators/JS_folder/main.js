@@ -32,3 +32,11 @@ function negation_Operator() { //This is a negation operator function here
     var x = 10;
     document.getElementById("Math7").innerHTML = -x;
 }
+
+var x = 5; //This is a increment operator function here
+x++;
+document.write(x);
+
+var X = 5.25; //This is a decrement operator function here
+X--;
+document.write(X); 
