@@ -3,10 +3,10 @@ function addNumbers(a, b) {
 }
 
 function calculate() {
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value);
+    var num1 = Number(document.getElementById("num1").value);
+    var num2 = Number(document.getElementById("num2").value);
 
-    let result = addNumbers(num1, num2);
+    var result = addNumbers(num1, num2);
 
     window.alert("The sum is: " + result);
 }
