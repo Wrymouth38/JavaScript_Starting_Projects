@@ -8,6 +8,6 @@ function calculate() {
 
     let result = addNumbers(num1, num2);
 
-    alert("The sum is: " + result);
+    window.alert("The sum is: " + result);
 }
 
