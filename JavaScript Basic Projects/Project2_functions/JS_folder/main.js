@@ -7,5 +7,7 @@ function calculate() {
     var num2 = Number(document.getElementById("num2").value);
 
     var result = addNumbers(num1, num2);
+    
+    document.getElementById("result").textContent = "The sum is: " + result;
 }
 
