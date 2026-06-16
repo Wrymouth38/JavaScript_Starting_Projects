@@ -1,3 +1,5 @@
+window.alert(Math.random() * 100); //This is a random number generator that will generate a number between 0 and 100
+
 function addition_Function() {  //Addition function here
     var addition = 2 + 2;
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
