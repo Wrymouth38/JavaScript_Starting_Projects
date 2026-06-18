@@ -1,21 +1,5 @@
 window.alert(Math.random() * 100); //This is a random number generator that will generate a number between 0 and 100
 
-function my_Dictionary() { //This is a dictionary function here
-    var Animal = { //This is the dictionary
-        Species: "Dog",
-        Color: "Black",
-        Breed: "German Shepherd",
-        Age: 5,
-        Sound: "Bark!"
-    };
-    delete Animal.Sound; //This will delete the sound property from the dictionary
-    document.getElementById("Dictionary").innerHTML = Animal.Sound; //This will display the sound of the animal when the user clicks on the paragraph
-}
-function addition_Function() {  //Addition function here
-    var addition = 2 + 2;
-    document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
-}
-
 function subtraction_Function() { //This is subtraction function here
     var Subtraction = 5 - 2;
     document.getElementById("Math2").innerHTML = "5 - 2 = " + Subtraction;
