@@ -1,0 +1,1 @@
+document.write(typeof "word"); //This will display the type of the string
