@@ -9,6 +9,14 @@ document.write(19 < 5); //This should display false
 document.write("<br>");
 document.write(19 == 19); //This should display true
 document.write("<br>")
+X = 10;
+Y = 10;
+document.write(X === Y);
+document.write("<br>");
+B = 82;
+C = "82";
+document.write(B === C);
+document.write("<br>");
 
 function my_function() {
     document.getElementById("test").innerHTML = 0/0 + "<br>"; //This will display NaN because you cannot divide by 0
