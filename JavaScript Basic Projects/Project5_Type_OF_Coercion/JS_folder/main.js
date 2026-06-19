@@ -17,6 +17,14 @@ B = 82;
 C = "82";
 document.write(B === C);
 document.write("<br>");
+document.write(5 > 2 && 10 > 4); //This should display true
+document.write("<br>");
+document.write(5 > 10 && 10 > 4);
+document.write("<br>");
+document.write(5 > 10 || 10 > 4); //This should display true
+document.write("<br>");
+document.write(5 > 10 || 10 > 20);
+document.write("<br>"); 
 
 function my_function() {
     document.getElementById("test").innerHTML = 0/0 + "<br>"; //This will display NaN because you cannot divide by 0
