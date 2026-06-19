@@ -5,7 +5,7 @@ document.write(2E310 + "<br>"); //This should display infinity
 document.write(-3E310 + "<br>"); //This should display -infinity
 document.write(19>5); //This should display true
 document.write(19<5); //This should display false
-
+document.write(19==19); //This should display true
 
 function my_function() {
     document.getElementById("test").innerHTML = 0/0 + "<br>"; //This will display NaN because you cannot divide by 0
