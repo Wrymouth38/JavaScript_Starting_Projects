@@ -26,9 +26,13 @@ document.write("<br>");
 document.write(5 > 10 || 10 > 20);
 document.write("<br>"); 
 
+
 function my_function() {
     document.getElementById("test").innerHTML = 0/0 + "<br>"; //This will display NaN because you cannot divide by 0
     //document.getElementById("test").innerHTML = isNaN('This is a string') + "<br>"; This will display true because the string is not a number
     //document.getElementById("test").innerHTML = isNaN('007') + "<br>"; This will display false because the string is a number
 }
 
+function not_function() {
+    document.getElementById("Not").innerHTML = !(20 > 10) + "<br>"; //This will display false because 20 is greater than 10
+}
