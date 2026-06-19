@@ -10,3 +10,5 @@ function my_function() {
 
 document.write(2E310 + "<br>"); //This should display infinity
 document.write(-3E310 + "<br>"); //This should display -infinity
+document.write(19>5 + "<br>"); //This should display true
+document.write(19<5 + "<br>"); //This should display false
