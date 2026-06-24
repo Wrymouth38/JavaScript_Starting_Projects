@@ -13,4 +13,7 @@ function get_Date() {
         if (new Date().getHours() < 11) {
             document.getElementById("Greeting").innerHTML = "How are you today?";
         }
+        else {
+            document.getElementById("Greeting").innerHTML = "to late to appologise";
+        }
     }
