@@ -22,3 +22,7 @@ function tofixed_method() {
     var X = 12.2345677;
     document.getElementById("Numbers_to_fixed").innerHTML = X.toFixed(2);
 }
+
+let text = "This is the value Of string example";
+let result = text.valueOf();
+document.getElementById("string_valueOf").innerHTML = result;
