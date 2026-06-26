@@ -17,3 +17,8 @@ function toPrecision_method() {
     var X = 123938.301125234905;
     document.getElementById("Numbers_to_precision").innerHTML = X.toPrecision(10);
 }
+
+function tofixed_method() {
+    var X = 123.456;
+    document.getElementById("Numbers_to_fixed").innerHTML = X.toFixed(2);
+}
