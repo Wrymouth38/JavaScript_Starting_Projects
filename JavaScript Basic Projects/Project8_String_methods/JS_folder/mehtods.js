@@ -10,7 +10,7 @@ document.getElementById("demo1").innerHTML = upper;
 let text3 = "This is the value";
 let result = text3.valueOf();
 
-document.getElementById(demo2).innerHTML = result;
+document.getElementById("demo2").innerHTML = result;
 
 function tostring_method() {
     var X = 123;
