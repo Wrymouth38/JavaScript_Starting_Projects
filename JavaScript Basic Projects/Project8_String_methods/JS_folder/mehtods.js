@@ -19,6 +19,6 @@ function toPrecision_method() {
 }
 
 function tofixed_method() {
-    var X = 123.456;
+    var X = 123.45677;
     document.getElementById("Numbers_to_fixed").innerHTML = X.toFixed(2);
 }
