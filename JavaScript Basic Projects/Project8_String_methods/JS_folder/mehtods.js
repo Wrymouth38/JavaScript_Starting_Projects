@@ -15,5 +15,5 @@ function tostring_method() {
 
 function toPrecision_method() {
     var X = 123938.301125234905;
-    document.getElementById("Numbers_to_pre").innerHTML = X.toPrecision_method(10);
+    document.getElementById("Numbers_to_precision").innerHTML = X.toPrecision(10);
 }
