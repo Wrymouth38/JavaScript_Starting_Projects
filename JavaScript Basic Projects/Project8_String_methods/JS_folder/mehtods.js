@@ -23,6 +23,3 @@ function tofixed_method() {
     document.getElementById("Numbers_to_fixed").innerHTML = X.toFixed(2);
 }
 
-let text = "This is the value Of string example";
-let result = text.valueOf();
-document.getElementById("string_valueOf").innerHTML = result;
