@@ -7,6 +7,11 @@ let text1 = "This is more methods challenge using toUpperCase";
 let upper = text1.toUpperCase();
 document.getElementById("demo1").innerHTML = upper;
 
+let text3 = "This is the value";
+let result = text3.valueOf();
+
+document.getElementById(demo2).innerHTML = result;
+
 function tostring_method() {
     var X = 123;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
