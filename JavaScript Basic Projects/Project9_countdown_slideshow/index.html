@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="JS_folder/main.js"></script>
+    <link rel="sylesheet" type="text/css" href="Your_CSS.file">
+    
+    
 </head>
 
 <body>
-
-    <p>How many seconds would you like to set your alarm for?</p>
-    <input id="seconds" value=""/>
-    <button onclick="countdown()">Click here</button>
-    <p id="timer"></p>
     
-    
+    <!--- Slideshow Container-->
+    <div class="slideshow-container">
+            
+        <!--- full - width images with numbers and caption text-->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img1.jpg" style="width: 100%;">
+                <div class="text">Caption Text</div>
+            </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img2.jpg" style="width: 100%;">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img3.jpg" style="width: 100%;">
+                <div class="text">Caption three</div>
+            </div>
+
+            <!--- Next and Previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+
+    <!---The dots/circles ----->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="here.jsfile"></script>
 </body>
 
 </html>
