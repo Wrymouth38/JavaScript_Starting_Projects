@@ -1,14 +1,14 @@
-function countdown() {
-    var seconds = document.getElementById("seconds").value;
+let slideIndex = 1;
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n0);
+}
 
-    function tick() {
-        seconds = seconds - 1;
-        var time = setTimeout(tick, 1000);
-        if (seconds == -1) {
-            alert("Time is up!");
-            clearTimeout(time);
-            TimeRanges.innerHTML = "";
-        }
-    }
-    tick();
+//Thumbnail image controls //
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    
 }
