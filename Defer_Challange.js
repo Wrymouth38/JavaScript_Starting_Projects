@@ -1,3 +1,3 @@
-function displaytext() {
+function changeText() {
     document.getElementById("message").innerHTML = "Hello!";
 }
