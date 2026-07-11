@@ -1,3 +1,3 @@
 function changeText() {
-    document.getElementById("message").innerHTML = "Hello!";
+    document.getElementById("message").textContent = "Hello!";
 }
