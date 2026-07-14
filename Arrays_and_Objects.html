@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sylesheet" type="text/css" href="Your_CSS.file">
+    
+    
+</head>
+
+<body>
+
+    <p id="Cat"></p>
+    <button onclick="cat_pics()">Click here!</button>
+   
+
+    <script>
+
+        function cat_pics() {
+            var Cat_Picture = [];
+            Cat_Picture[0] = "sleeping";
+            Cat_Picture[1] = "playing";
+            Cat_Picture[2] = "eating";
+            Cat_Picture[3] = "purring";
+            document.getElementById("Cat").innerHTML = "In this picture, the cat is " +
+                Cat_Picture[2] + ".";
+        }
+    </script>
+</body>
+
+</html>
