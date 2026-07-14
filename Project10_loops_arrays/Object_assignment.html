@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sylesheet" type="text/css" href="Your_CSS.file">
+    
+    
+</head>
+
+<body>
+   
+    <p id="Car_Object"></p>
+
+    <script>
+        let car = {
+            make: "Ford",
+            model: "Mustang",
+            year: 1969,
+            color: "red",
+            description: function() {
+                return "The car is a " + this.year + this.color + this.make + this.model;
+            }
+        };
+        document.getElementById("Car_Object").innerHTML = car.description();
+    </script>
+</body>
+
+</html>
