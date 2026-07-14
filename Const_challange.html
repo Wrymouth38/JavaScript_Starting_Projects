@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sylesheet" type="text/css" href="Your_CSS.file">
+    
+    
+</head>
+
+<body>
+   
+    <p id="Constant"></p>
+    <button onclick="constant_function()">Click here!</button>
+
+    <script>
+        
+        function constant_function() {
+            const Musical_Instrument = { type: "guitar", brand: "Fender", color: "black" };
+            Musical_Instrument.color = "blue";
+            Musical_Instrument.price = "$900";
+            document.getElementById("Constant").innerHTML = "The cost of the " +
+                Musical_Instrument.type + " was " + Musical_Instrument.price;
+        }
+
+    </script>
+</body>
+
+</html>
