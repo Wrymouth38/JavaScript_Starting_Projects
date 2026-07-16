@@ -3,22 +3,22 @@ function Color_Function() {
     var Color = document.getElementById("Color_Input").value.toLowerCase();
     var Color_String = " is a great color!";  
     switch(Color) {
-        case "Red":
+        case "red":
             Color_Output = "Red" + Color_String;
         break;
-        case "Yellow":
+        case "yellow":
             Color_Output = "Yellow" + Color_String;
         break;
-        case "Green":
+        case "green":
             Color_Output = "Green" + Color_String;
         break;
-        case "Blue":
+        case "blue":
             Color_Output = "Blue" + Color_String;
         break;
-        case "Pink":
+        case "pink":
             Color_Output = "Pink" + Color_String;
         break;
-        case "Purple":
+        case "purple":
             Color_Output = "Purple" + Color_String;
         break;
         default:
