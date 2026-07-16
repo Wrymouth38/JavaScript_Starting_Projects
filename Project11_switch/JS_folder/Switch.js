@@ -1,6 +1,6 @@
-function Color_FUnction() {
+function Color_Function() {
     var Color_Output;
-    var Colors = document.getElementById("Color_Input").value;
+    var Colors = document.getElementById("Color_Input").value.toLowerCase();
     var Color_String = " is a great color!";  
     switch(Colors) {
         case "Red":
