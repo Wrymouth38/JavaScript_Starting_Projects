@@ -17,6 +17,14 @@
 
     <script>
 
+        var canvas = document.getElementById("ID_Name");
+        var ctx = canvas.getContext("2d");
+        var gradient = ctx.createLinearGradient(0, 0, 500, 0);
+        gradient.addColorStop(0, "red");
+        gradient.addColorStop(1, "blue");
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 500, 250);
+
     </script>
 </body>
 
