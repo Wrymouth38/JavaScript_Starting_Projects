@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="">
+    
+    
+</head>
+
+<body>
+<!--- Example of how we can use the data attribute:
+    <ol>
+        <li data-family_relation ="father">Mark</li>
+        <li data-family_relation ="mother">Kelly</li>
+        <li data-family_relation ="sister">Maxine</li>
+    </ol>
+--->
+
+    <h1>Characters</h1>
+    <h3>Click on a universe to see a character!</h3>
+
+    <ul>
+        <li onclick="displayType(this)" id="DC"
+        data-character-type="Batman">DC</li>
+        <li onclick="displayType(this)" id="Start Wars"
+        data-character-type="Luke Skywalker">Star Wars</li>
+        <li onclick="displayType(this)" id="Marvel"
+        data-character-type="Luke Skywalker">Marvel</li>
+        <li onclick="displayType(this)" id="Star Trek"
+        data-character-type="Luke Skywalker">Star Trek</li>
+    </ul>
+
+    <script src="/JavaScript_3.js"></script>
+</body>
+
+</html>
