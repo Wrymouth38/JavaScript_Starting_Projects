@@ -10,14 +10,13 @@
 
 <body>
     
-    <p id="diplayCar"></p>
+    <p id="displayCar"></p>
 
     <script>
 
-        myFunction = () => "This is my function";
+        const myFunction = () => "This is my function";
 
-        var car;
-        car = (val) => "These are my factourite car brands: " + val;
+        const car = (val) => "These are my favourite car brands: " + val;
         document.getElementById("displayCar").innerHTML = car("Honda, Ford, and Nissan");
 
 
