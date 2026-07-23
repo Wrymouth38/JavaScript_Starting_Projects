@@ -1,4 +1,8 @@
 /*This container includes our table and our canvas.*/
+.h1 {
+    position: center;
+}
+
 .center-container {
     /*this property sets the width of our container.*/
     width: 608px;
