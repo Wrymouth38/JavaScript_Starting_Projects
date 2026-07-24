@@ -119,6 +119,6 @@ function checkWinConditions() {
         const c = selectedSquares.includes(squareC);
         //if the 3 variables we pass are all included in our arraye then
         //true is returned and our else if condition executes the drawLine() function.
-        If (a === true && b === true && c === true) { return true; }
+        if (a === true && b === true && c === true) { return true; }
     }
 }
